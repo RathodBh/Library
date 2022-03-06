@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive menu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../fontAwesome/font-awesome.min.css">
+</head>
+<body>
+    <nav>  
+      
+        <h1>BRAND<span>NAME</span></h1>
+        <div class="bars">
+            <i class="fa fa-tasks fa-2x"></i>
+            <i class="fa fa-window-close fa-2x"></i>
+        </div>
+        <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">More</a></li>
+        </ul>  
+        
+    </nav>
+
+    <div class="container">
+        <h2>Responsive Menu</h2>
+    </div>
+
+    <script>
+
+        //variables
+        ul =  document.querySelector('ul');
+        tasks = document.querySelector('.fa-tasks');
+        closeBtn = document.querySelector('.fa-window-close');
+        nav = document.querySelector('nav');
+
+        //hide close button
+        closeBtn.style.display = "none";
+
+        //events
+        tasks.addEventListener('click',() => {
+            nav.classList.toggle('show');
+
+            closeBtn.style.display = "flex";
+            tasks.style.display = "none";
+
+        });
+        closeBtn.addEventListener('click', () => {
+                nav.classList.toggle('show');
+
+                closeBtn.style.display = "none";
+                tasks.style.display = "flex";
+
+            });
+    </script>
+</body>
+</html>
