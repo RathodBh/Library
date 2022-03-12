@@ -1,0 +1,1158 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3034ADD7-5274-4D3C-B272-0A30B0F09DDC}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Library_Management_System</RootNamespace>
+    <AssemblyName>Library Management System</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44341</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportViewer.11.0.3366.16\lib\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportViewer.11.0.3366.16\lib\Microsoft.ReportViewer.DataVisualization.DLL</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportViewer.11.0.3366.16\lib\Microsoft.ReportViewer.Design.DLL</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportViewer.11.0.3366.16\lib\Microsoft.ReportViewer.ProcessingObjectModel.DLL</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WebDesign, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportViewer.11.0.3366.16\lib\Microsoft.ReportViewer.WebDesign.DLL</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportViewer.11.0.3366.16\lib\Microsoft.ReportViewer.WebForms.DLL</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportViewer.11.0.3366.16\lib\Microsoft.ReportViewer.WinForms.DLL</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.SqlServer.Types.11.0.1\lib\net20\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\library.mdf" />
+    <Content Include="App_Data\library_log.ldf">
+      <DependentUpon>library.mdf</DependentUpon>
+    </Content>
+    <Content Include="css\about.css" />
+    <Content Include="css\contact.css" />
+    <Content Include="css\login.css" />
+    <Content Include="css\phone.css" />
+    <Content Include="css\pic_upload_popup.css" />
+    <Content Include="css\popup.css" />
+    <Content Include="css\preloader.css" />
+    <Content Include="css\tab.css" />
+    <Content Include="js\functions.js" />
+    <Content Include="librarian\Stud_issue_entries.aspx" />
+    <Content Include="librarian\stud_new.aspx" />
+    <Content Include="librarian\teacher_new.aspx" />
+    <Content Include="librarian\add_librarian.aspx" />
+    <Content Include="sweetAlert\bootstrap.min.css" />
+    <Content Include="sweetAlert\jquery.min.js" />
+    <Content Include="sweetAlert\popper.min.js" />
+    <Content Include="sweetAlert\sweetalert.min.js" />
+    <Content Include="css\table.css" />
+    <Content Include="css\welcome_page.css" />
+    <Content Include="gif\clock.gif" />
+    <Content Include="gif\tenor.gif" />
+    <Content Include="gif\welcome_preloader.gif" />
+    <Content Include="librarian\active.aspx" />
+    <Content Include="librarian\add_books.aspx" />
+    <Content Include="librarian\assets\css\bootstrap-select.css" />
+    <Content Include="librarian\assets\css\bootstrap.css" />
+    <Content Include="librarian\assets\css\bootstrap.min.css" />
+    <Content Include="librarian\assets\css\font-awesome.min.css" />
+    <Content Include="librarian\assets\css\lib\datatable\buttons.bootstrap.min.css" />
+    <Content Include="librarian\assets\css\lib\datatable\buttons.dataTables.min.css" />
+    <Content Include="librarian\assets\css\lib\datatable\dataTables.bootstrap.min.css" />
+    <Content Include="librarian\assets\css\normalize.css" />
+    <Content Include="librarian\assets\css\style.css" />
+    <Content Include="librarian\assets\css\themify-icons.css" />
+    <Content Include="librarian\assets\fonts\codropsicons\codropsicons.svg" />
+    <Content Include="librarian\assets\fonts\codropsicons\index.html" />
+    <Content Include="librarian\assets\fonts\codropsicons\license.txt" />
+    <Content Include="librarian\assets\fonts\fontawesome-webfont.svg" />
+    <Content Include="librarian\assets\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="librarian\assets\fonts\icomoon\icomoon.svg" />
+    <Content Include="librarian\assets\fonts\icomoon\index.html" />
+    <Content Include="librarian\assets\fonts\index.html" />
+    <Content Include="librarian\assets\fonts\themify.svg" />
+    <Content Include="librarian\assets\js\dashboard.js" />
+    <Content Include="librarian\assets\js\less.min.js" />
+    <Content Include="librarian\assets\js\lib\data-table\buttons.bootstrap.min.js" />
+    <Content Include="librarian\assets\js\lib\data-table\buttons.colVis.min.js" />
+    <Content Include="librarian\assets\js\lib\data-table\buttons.flash.min.js" />
+    <Content Include="librarian\assets\js\lib\data-table\buttons.html5.min.js" />
+    <Content Include="librarian\assets\js\lib\data-table\buttons.print.min.js" />
+    <Content Include="librarian\assets\js\lib\data-table\datatables-init.js" />
+    <Content Include="librarian\assets\js\lib\data-table\dataTables.bootstrap.min.js" />
+    <Content Include="librarian\assets\js\lib\data-table\dataTables.buttons.min.js" />
+    <Content Include="librarian\assets\js\lib\data-table\datatables.min.js" />
+    <Content Include="librarian\assets\js\lib\data-table\jquery-1.12.4.js" />
+    <Content Include="librarian\assets\js\lib\data-table\jquery.dataTables.min.js" />
+    <Content Include="librarian\assets\js\lib\data-table\jszip.min.js" />
+    <Content Include="librarian\assets\js\lib\data-table\pdfmake.min.js" />
+    <Content Include="librarian\assets\js\lib\data-table\vfs_fonts.js" />
+    <Content Include="librarian\assets\js\main.js" />
+    <Content Include="librarian\assets\js\plugins.js" />
+    <Content Include="librarian\assets\js\popper.min.js" />
+    <Content Include="librarian\assets\js\selectFx.js" />
+    <Content Include="librarian\assets\js\vendor\jquery-2.1.4.min.js" />
+    <Content Include="librarian\assets\js\widgets.js" />
+    <Content Include="librarian\assets\scss\bootstrap\bootstrap-grid.css" />
+    <Content Include="librarian\assets\scss\bootstrap\bootstrap-reboot.css" />
+    <Content Include="librarian\assets\scss\bootstrap\bootstrap.css" />
+    <Content Include="librarian\assets\scss\socials.css" />
+    <Content Include="librarian\assets\scss\style.css" />
+    <Content Include="librarian\assets\scss\variables.css" />
+    <Content Include="librarian\assets\scss\widgets.css" />
+    <Content Include="librarian\books_images\welcome_library.jpg" />
+    <Content Include="librarian\books_pdf\images.jpg" />
+    <Content Include="librarian\books_video\Wildlife.mp4" />
+    <Content Include="librarian\deactive.aspx" />
+    <Content Include="librarian\display_all_books.aspx" />
+    <Content Include="librarian\display_stud_info.aspx" />
+    <Content Include="librarian\demo.aspx" />
+    <Content Include="librarian\issue_entry.aspx" />
+    <Content Include="librarian\load_messages.aspx" />
+    <Content Include="librarian\load_new_messages.aspx" />
+    <Content Include="librarian\lost.aspx" />
+    <Content Include="librarian\penalty.aspx" />
+    <Content Include="librarian\new_issue_book.aspx" />
+    <Content Include="librarian\display_teacher_info.aspx" />
+    <Content Include="librarian\returnBook.aspx" />
+    <Content Include="librarian\send_msg.aspx" />
+    <Content Include="librarian\stud_return_book.aspx" />
+    <Content Include="librarian\teacher_return_book.aspx" />
+    <Content Include="librarian\communication.aspx" />
+    <Content Include="librarian\messages_send_from_librarian.aspx" />
+    <Content Include="librarian\lost_book.aspx" />
+    <Content Include="librarian\show_lost_book.aspx" />
+    <Content Include="librarian\Contact.aspx" />
+    <Content Include="librarian\stud_issued_books.aspx" />
+    <Content Include="librarian\edit_book.aspx" />
+    <Content Include="librarian\Edit_page.aspx" />
+    <Content Include="librarian\my_profile.aspx" />
+    <Content Include="librarian\reports.aspx" />
+    <Content Include="librarian\teacher_issue_entries.aspx" />
+    <Content Include="librarian\teacher_issued_books.aspx" />
+    <Content Include="packages\Microsoft.SqlServer.Types.11.0.1\nativeBinaries\x64\msvcr100.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="packages\Microsoft.SqlServer.Types.11.0.1\nativeBinaries\x64\SqlServerSpatial110.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="packages\Microsoft.SqlServer.Types.11.0.1\nativeBinaries\x86\msvcr100.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="packages\Microsoft.SqlServer.Types.11.0.1\nativeBinaries\x86\SqlServerSpatial110.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="student\img\stud_logo.jpg" />
+    <Content Include="student\load_messages.aspx" />
+    <Content Include="student\load_new_messages.aspx" />
+    <Content Include="student\show_lost_book.aspx" />
+    <Content Include="student\stud_issue_entry.aspx" />
+    <Content Include="student\stud_returned_books.aspx" />
+    <Content Include="student\my_profile.aspx" />
+    <Content Include="teacher\show_lost_book.aspx" />
+    <Content Include="teacher\teacher_issue_entry.aspx" />
+    <Content Include="teacher\teacher_returned_book.aspx" />
+    <Content Include="teacher\my_profile.aspx" />
+    <Content Include="webforms\about_us.aspx" />
+    <Content Include="webforms\contact_us.aspx" />
+    <Content Include="webforms\css\component1.css" />
+    <Content Include="webforms\css\component2.css" />
+    <Content Include="webforms\css\demo.css" />
+    <Content Include="webforms\css\normalize.css" />
+    <Content Include="webforms\follow.aspx" />
+    <Content Include="webforms\img\book2.png" />
+    <Content Include="webforms\img\book3.jpg" />
+    <Content Include="webforms\img\logo.png" />
+    <Content Include="webforms\img\my_pic.jpg" />
+    <Content Include="webforms\issue_entry.aspx" />
+    <Content Include="webforms\update\dept.aspx" />
+    <Content Include="webforms\update\dp.aspx" />
+    <Content Include="webforms\update\phno.aspx" />
+    <Content Include="webforms\update\sem.aspx" />
+    <Content Include="webforms\welcome.aspx" />
+    <Content Include="webforms\js\demo2.js" />
+    <Content Include="webforms\js\modernizr-2.6.2.min.js" />
+    <Content Include="webforms\js\polyfills.js" />
+    <Content Include="webforms\lost.aspx" />
+    <Content Include="student\lost_book.aspx" />
+    <Content Include="student\messages_send_from_student.aspx" />
+    <Content Include="student\stud_send_msg.aspx" />
+    <Content Include="student\stud_login.aspx" />
+    <Content Include="student\stud_issued_books.aspx" />
+    <Content Include="student\stud_disp_book.aspx" />
+    <Content Include="student\stud_home.aspx" />
+    <Content Include="teacher\img\teacher.jpeg" />
+    <Content Include="teacher\teacher_login.aspx" />
+    <Content Include="teacher\teacher_home.aspx" />
+    <Content Include="teacher\teacher_issued_book.aspx" />
+    <Content Include="teacher\teacher_disp_book.aspx" />
+    <Content Include="teacher\teacher_lost_book.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="webforms\logout.aspx" />
+    <Content Include="webforms\welcome_old.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Code\Class1.cs" />
+    <Content Include="App_Code\DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Content>
+    <Content Include="App_Code\stud_teacher.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>stud_teacher.xsd</DependentUpon>
+    </Content>
+    <Content Include="App_Code\book.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>book.xsd</DependentUpon>
+    </Content>
+    <Compile Include="librarian\active.aspx.cs">
+      <DependentUpon>active.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="librarian\active.aspx.designer.cs">
+      <DependentUpon>active.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="librarian\add_books.aspx.cs">
+      <DependentUpon>add_books.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="librarian\add_books.aspx.designer.cs">
+      <DependentUpon>add_books.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="librarian\deactive.aspx.cs">
+      <DependentUpon>deactive.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="librarian\deactive.aspx.designer.cs">
+      <DependentUpon>deactive.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="librarian\display_all_books.aspx.cs">
+      <DependentUpon>display_all_books.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="librarian\display_all_books.aspx.designer.cs">
+      <DependentUpon>display_all_books.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="librarian\display_stud_info.aspx.cs">
+      <DependentUpon>display_stud_info.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="librarian\display_stud_info.aspx.designer.cs">
+      <DependentUpon>display_stud_info.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="librarian\issue_entry.aspx.cs">
+      <DependentUpon>issue_entry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="librarian\issue_entry.aspx.designer.cs">
+      <DependentUpon>issue_entry.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="librarian\librarian_menu.Master.cs">
+      <DependentUpon>librarian_menu.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="librarian\librarian_menu.Master.designer.cs">
+      <DependentUpon>librarian_menu.Master</DependentUpon>
+    </Compile>
+    <Compile Include="librarian\demo.aspx.cs">
+      <DependentUpon>demo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="librarian\demo.aspx.designer.cs">
+      <DependentUpon>demo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="librarian\load_messages.aspx.cs">
+      <DependentUpon>load_messages.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="librarian\load_messages.aspx.designer.cs">
+      <DependentUpon>load_messages.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="librarian\load_new_messages.aspx.cs">
+      <DependentUpon>load_new_messages.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="librarian\load_new_messages.aspx.designer.cs">
+      <DependentUpon>load_new_messages.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="librarian\lost.aspx.cs">
+      <DependentUpon>lost.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="librarian\lost.aspx.designer.cs">
+      <DependentUpon>lost.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="librarian\penalty.aspx.cs">
+      <DependentUpon>penalty.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="librarian\penalty.aspx.designer.cs">
+      <DependentUpon>penalty.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="librarian\new_issue_book.aspx.cs">
+      <DependentUpon>new_issue_book.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="librarian\new_issue_book.aspx.designer.cs">
+      <DependentUpon>new_issue_book.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="librarian\display_teacher_info.aspx.cs">
+      <DependentUpon>display_teacher_info.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="librarian\display_teacher_info.aspx.designer.cs">
+      <DependentUpon>display_teacher_info.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="librarian\returnBook.aspx.cs">
+      <DependentUpon>returnBook.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="librarian\returnBook.aspx.designer.cs">
+      <DependentUpon>returnBook.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="librarian\send_msg.aspx.cs">
+      <DependentUpon>send_msg.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="librarian\send_msg.aspx.designer.cs">
+      <DependentUpon>send_msg.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="librarian\Stud_issue_entries.aspx.cs">
+      <DependentUpon>Stud_issue_entries.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="librarian\Stud_issue_entries.aspx.designer.cs">
+      <DependentUpon>Stud_issue_entries.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="librarian\stud_new.aspx.cs">
+      <DependentUpon>stud_new.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="librarian\stud_new.aspx.designer.cs">
+      <DependentUpon>stud_new.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="librarian\stud_return_book.aspx.cs">
+      <DependentUpon>stud_return_book.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="librarian\stud_return_book.aspx.designer.cs">
+      <DependentUpon>stud_return_book.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="librarian\teacher_new.aspx.cs">
+      <DependentUpon>teacher_new.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="librarian\teacher_new.aspx.designer.cs">
+      <DependentUpon>teacher_new.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="librarian\teacher_return_book.aspx.cs">
+      <DependentUpon>teacher_return_book.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="librarian\teacher_return_book.aspx.designer.cs">
+      <DependentUpon>teacher_return_book.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="librarian\communication.aspx.cs">
+      <DependentUpon>communication.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="librarian\communication.aspx.designer.cs">
+      <DependentUpon>communication.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="librarian\messages_send_from_librarian.aspx.cs">
+      <DependentUpon>messages_send_from_librarian.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="librarian\messages_send_from_librarian.aspx.designer.cs">
+      <DependentUpon>messages_send_from_librarian.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="librarian\lost_book.aspx.cs">
+      <DependentUpon>lost_book.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="librarian\lost_book.aspx.designer.cs">
+      <DependentUpon>lost_book.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="librarian\show_lost_book.aspx.cs">
+      <DependentUpon>show_lost_book.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="librarian\show_lost_book.aspx.designer.cs">
+      <DependentUpon>show_lost_book.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="librarian\Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="librarian\Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="librarian\stud_issued_books.aspx.cs">
+      <DependentUpon>stud_issued_books.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="librarian\stud_issued_books.aspx.designer.cs">
+      <DependentUpon>stud_issued_books.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="librarian\edit_book.aspx.cs">
+      <DependentUpon>edit_book.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="librarian\edit_book.aspx.designer.cs">
+      <DependentUpon>edit_book.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="librarian\Edit_page.aspx.cs">
+      <DependentUpon>Edit_page.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="librarian\Edit_page.aspx.designer.cs">
+      <DependentUpon>Edit_page.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="librarian\my_profile.aspx.cs">
+      <DependentUpon>my_profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="librarian\my_profile.aspx.designer.cs">
+      <DependentUpon>my_profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="librarian\reports.aspx.cs">
+      <DependentUpon>reports.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="librarian\reports.aspx.designer.cs">
+      <DependentUpon>reports.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="librarian\teacher_issue_entries.aspx.cs">
+      <DependentUpon>teacher_issue_entries.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="librarian\teacher_issue_entries.aspx.designer.cs">
+      <DependentUpon>teacher_issue_entries.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="librarian\teacher_issued_books.aspx.cs">
+      <DependentUpon>teacher_issued_books.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="librarian\teacher_issued_books.aspx.designer.cs">
+      <DependentUpon>teacher_issued_books.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="librarian\add_librarian.aspx.cs">
+      <DependentUpon>add_librarian.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="librarian\add_librarian.aspx.designer.cs">
+      <DependentUpon>add_librarian.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SqlServerTypes\Loader.cs" />
+    <Compile Include="student\load_messages.aspx.cs">
+      <DependentUpon>load_messages.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="student\load_messages.aspx.designer.cs">
+      <DependentUpon>load_messages.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="student\load_new_messages.aspx.cs">
+      <DependentUpon>load_new_messages.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="student\load_new_messages.aspx.designer.cs">
+      <DependentUpon>load_new_messages.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="student\show_lost_book.aspx.cs">
+      <DependentUpon>show_lost_book.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="student\show_lost_book.aspx.designer.cs">
+      <DependentUpon>show_lost_book.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="student\stud_issue_entry.aspx.cs">
+      <DependentUpon>stud_issue_entry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="student\stud_issue_entry.aspx.designer.cs">
+      <DependentUpon>stud_issue_entry.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="student\stud_returned_books.aspx.cs">
+      <DependentUpon>stud_returned_books.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="student\stud_returned_books.aspx.designer.cs">
+      <DependentUpon>stud_returned_books.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="student\my_profile.aspx.cs">
+      <DependentUpon>my_profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="student\my_profile.aspx.designer.cs">
+      <DependentUpon>my_profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="teacher\show_lost_book.aspx.cs">
+      <DependentUpon>show_lost_book.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="teacher\show_lost_book.aspx.designer.cs">
+      <DependentUpon>show_lost_book.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="teacher\teacher_issue_entry.aspx.cs">
+      <DependentUpon>teacher_issue_entry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="teacher\teacher_issue_entry.aspx.designer.cs">
+      <DependentUpon>teacher_issue_entry.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="teacher\teacher_returned_book.aspx.cs">
+      <DependentUpon>teacher_returned_book.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="teacher\teacher_returned_book.aspx.designer.cs">
+      <DependentUpon>teacher_returned_book.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="teacher\my_profile.aspx.cs">
+      <DependentUpon>my_profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="teacher\my_profile.aspx.designer.cs">
+      <DependentUpon>my_profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="webforms\about_us.aspx.cs">
+      <DependentUpon>about_us.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="webforms\about_us.aspx.designer.cs">
+      <DependentUpon>about_us.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="webforms\contact_us.aspx.cs">
+      <DependentUpon>contact_us.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="webforms\contact_us.aspx.designer.cs">
+      <DependentUpon>contact_us.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="webforms\follow.aspx.cs">
+      <DependentUpon>follow.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="webforms\follow.aspx.designer.cs">
+      <DependentUpon>follow.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="webforms\issue_entry.aspx.cs">
+      <DependentUpon>issue_entry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="webforms\issue_entry.aspx.designer.cs">
+      <DependentUpon>issue_entry.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="webforms\lost.aspx.cs">
+      <DependentUpon>lost.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="webforms\lost.aspx.designer.cs">
+      <DependentUpon>lost.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="student\lost_book.aspx.cs">
+      <DependentUpon>lost_book.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="student\lost_book.aspx.designer.cs">
+      <DependentUpon>lost_book.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="student\messages_send_from_student.aspx.cs">
+      <DependentUpon>messages_send_from_student.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="student\messages_send_from_student.aspx.designer.cs">
+      <DependentUpon>messages_send_from_student.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="student\stud_send_msg.aspx.cs">
+      <DependentUpon>stud_send_msg.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="student\stud_send_msg.aspx.designer.cs">
+      <DependentUpon>stud_send_msg.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="student\student_menu.Master.cs">
+      <DependentUpon>student_menu.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="student\student_menu.Master.designer.cs">
+      <DependentUpon>student_menu.Master</DependentUpon>
+    </Compile>
+    <Compile Include="student\stud_login.aspx.cs">
+      <DependentUpon>stud_login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="student\stud_login.aspx.designer.cs">
+      <DependentUpon>stud_login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="student\stud_issued_books.aspx.cs">
+      <DependentUpon>stud_issued_books.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="student\stud_issued_books.aspx.designer.cs">
+      <DependentUpon>stud_issued_books.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="student\stud_disp_book.aspx.cs">
+      <DependentUpon>stud_disp_book.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="student\stud_disp_book.aspx.designer.cs">
+      <DependentUpon>stud_disp_book.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="student\stud_home.aspx.cs">
+      <DependentUpon>stud_home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="student\stud_home.aspx.designer.cs">
+      <DependentUpon>stud_home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="teacher\teacher_login.aspx.cs">
+      <DependentUpon>teacher_login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="teacher\teacher_login.aspx.designer.cs">
+      <DependentUpon>teacher_login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="teacher\teacher_menu.Master.cs">
+      <DependentUpon>teacher_menu.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="teacher\teacher_menu.Master.designer.cs">
+      <DependentUpon>teacher_menu.Master</DependentUpon>
+    </Compile>
+    <Compile Include="teacher\teacher_home.aspx.cs">
+      <DependentUpon>teacher_home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="teacher\teacher_home.aspx.designer.cs">
+      <DependentUpon>teacher_home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="teacher\teacher_issued_book.aspx.cs">
+      <DependentUpon>teacher_issued_book.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="teacher\teacher_issued_book.aspx.designer.cs">
+      <DependentUpon>teacher_issued_book.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="teacher\teacher_disp_book.aspx.cs">
+      <DependentUpon>teacher_disp_book.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="teacher\teacher_disp_book.aspx.designer.cs">
+      <DependentUpon>teacher_disp_book.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="teacher\teacher_lost_book.aspx.cs">
+      <DependentUpon>teacher_lost_book.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="teacher\teacher_lost_book.aspx.designer.cs">
+      <DependentUpon>teacher_lost_book.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="webforms\logout.aspx.cs">
+      <DependentUpon>logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="webforms\logout.aspx.designer.cs">
+      <DependentUpon>logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="webforms\update\dept.aspx.cs">
+      <DependentUpon>dept.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="webforms\update\dept.aspx.designer.cs">
+      <DependentUpon>dept.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="webforms\update\dp.aspx.cs">
+      <DependentUpon>dp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="webforms\update\dp.aspx.designer.cs">
+      <DependentUpon>dp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="webforms\update\phno.aspx.cs">
+      <DependentUpon>phno.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="webforms\update\phno.aspx.designer.cs">
+      <DependentUpon>phno.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="webforms\update\sem.aspx.cs">
+      <DependentUpon>sem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="webforms\update\sem.aspx.designer.cs">
+      <DependentUpon>sem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="webforms\welcome.aspx.cs">
+      <DependentUpon>welcome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="webforms\welcome.aspx.designer.cs">
+      <DependentUpon>welcome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="webforms\welcome_old.aspx.cs">
+      <DependentUpon>welcome_old.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="webforms\welcome_old.aspx.designer.cs">
+      <DependentUpon>welcome_old.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="librarian\assets\css\bootstrap.css.map" />
+    <Content Include="librarian\assets\css\bootstrap.min.css.map" />
+    <Content Include="librarian\assets\css\style.css.map" />
+    <Content Include="librarian\assets\fonts\codropsicons\codropsicons.eot" />
+    <Content Include="librarian\assets\fonts\codropsicons\codropsicons.ttf" />
+    <Content Include="librarian\assets\fonts\codropsicons\codropsicons.woff" />
+    <Content Include="librarian\assets\fonts\fontawesome-webfont.eot" />
+    <Content Include="librarian\assets\fonts\fontawesome-webfont.ttf" />
+    <Content Include="librarian\assets\fonts\fontawesome-webfont.woff" />
+    <Content Include="librarian\assets\fonts\fontawesome-webfont.woff2" />
+    <Content Include="librarian\assets\fonts\FontAwesome.otf" />
+    <Content Include="librarian\assets\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="librarian\assets\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="librarian\assets\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="librarian\assets\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="librarian\assets\fonts\icomoon\icomoon.eot" />
+    <Content Include="librarian\assets\fonts\icomoon\icomoon.ttf" />
+    <Content Include="librarian\assets\fonts\icomoon\icomoon.woff" />
+    <Content Include="librarian\assets\fonts\themify.eot" />
+    <Content Include="librarian\assets\fonts\themify.ttf" />
+    <Content Include="librarian\assets\fonts\themify.woff" />
+    <Content Include="librarian\assets\scss\.sass-cache\0c2f4e7e3ce607a0f7f238a71122520ed74aaa15\style.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\0c2f4e7e3ce607a0f7f238a71122520ed74aaa15\variables.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\0c2f4e7e3ce607a0f7f238a71122520ed74aaa15\_gauge.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\0c2f4e7e3ce607a0f7f238a71122520ed74aaa15\_switches.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\0c2f4e7e3ce607a0f7f238a71122520ed74aaa15\_widgets.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\1ea663541d8aa72314e8caea4edf18e46ea3ed2e\_alert.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\1ea663541d8aa72314e8caea4edf18e46ea3ed2e\_background-variant.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\1ea663541d8aa72314e8caea4edf18e46ea3ed2e\_badge.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\1ea663541d8aa72314e8caea4edf18e46ea3ed2e\_border-radius.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\1ea663541d8aa72314e8caea4edf18e46ea3ed2e\_box-shadow.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\1ea663541d8aa72314e8caea4edf18e46ea3ed2e\_breakpoints.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\1ea663541d8aa72314e8caea4edf18e46ea3ed2e\_buttons.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\1ea663541d8aa72314e8caea4edf18e46ea3ed2e\_caret.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\1ea663541d8aa72314e8caea4edf18e46ea3ed2e\_clearfix.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\1ea663541d8aa72314e8caea4edf18e46ea3ed2e\_float.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\1ea663541d8aa72314e8caea4edf18e46ea3ed2e\_forms.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\1ea663541d8aa72314e8caea4edf18e46ea3ed2e\_gradients.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\1ea663541d8aa72314e8caea4edf18e46ea3ed2e\_grid-framework.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\1ea663541d8aa72314e8caea4edf18e46ea3ed2e\_grid.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\1ea663541d8aa72314e8caea4edf18e46ea3ed2e\_hover.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\1ea663541d8aa72314e8caea4edf18e46ea3ed2e\_image.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\1ea663541d8aa72314e8caea4edf18e46ea3ed2e\_list-group.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\1ea663541d8aa72314e8caea4edf18e46ea3ed2e\_lists.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\1ea663541d8aa72314e8caea4edf18e46ea3ed2e\_nav-divider.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\1ea663541d8aa72314e8caea4edf18e46ea3ed2e\_pagination.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\1ea663541d8aa72314e8caea4edf18e46ea3ed2e\_reset-text.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\1ea663541d8aa72314e8caea4edf18e46ea3ed2e\_resize.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\1ea663541d8aa72314e8caea4edf18e46ea3ed2e\_screen-reader.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\1ea663541d8aa72314e8caea4edf18e46ea3ed2e\_size.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\1ea663541d8aa72314e8caea4edf18e46ea3ed2e\_table-row.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\1ea663541d8aa72314e8caea4edf18e46ea3ed2e\_text-emphasis.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\1ea663541d8aa72314e8caea4edf18e46ea3ed2e\_text-hide.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\1ea663541d8aa72314e8caea4edf18e46ea3ed2e\_text-truncate.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\1ea663541d8aa72314e8caea4edf18e46ea3ed2e\_transition.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\1ea663541d8aa72314e8caea4edf18e46ea3ed2e\_visibility.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\590089d940a3045eb8c8b24b183c435305a7d5a9\bootstrap.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\590089d940a3045eb8c8b24b183c435305a7d5a9\_alert.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\590089d940a3045eb8c8b24b183c435305a7d5a9\_badge.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\590089d940a3045eb8c8b24b183c435305a7d5a9\_breadcrumb.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\590089d940a3045eb8c8b24b183c435305a7d5a9\_button-group.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\590089d940a3045eb8c8b24b183c435305a7d5a9\_buttons.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\590089d940a3045eb8c8b24b183c435305a7d5a9\_card.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\590089d940a3045eb8c8b24b183c435305a7d5a9\_carousel.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\590089d940a3045eb8c8b24b183c435305a7d5a9\_close.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\590089d940a3045eb8c8b24b183c435305a7d5a9\_code.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\590089d940a3045eb8c8b24b183c435305a7d5a9\_custom-forms.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\590089d940a3045eb8c8b24b183c435305a7d5a9\_dropdown.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\590089d940a3045eb8c8b24b183c435305a7d5a9\_forms.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\590089d940a3045eb8c8b24b183c435305a7d5a9\_functions.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\590089d940a3045eb8c8b24b183c435305a7d5a9\_grid.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\590089d940a3045eb8c8b24b183c435305a7d5a9\_images.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\590089d940a3045eb8c8b24b183c435305a7d5a9\_input-group.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\590089d940a3045eb8c8b24b183c435305a7d5a9\_jumbotron.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\590089d940a3045eb8c8b24b183c435305a7d5a9\_list-group.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\590089d940a3045eb8c8b24b183c435305a7d5a9\_media.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\590089d940a3045eb8c8b24b183c435305a7d5a9\_mixins.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\590089d940a3045eb8c8b24b183c435305a7d5a9\_modal.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\590089d940a3045eb8c8b24b183c435305a7d5a9\_nav.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\590089d940a3045eb8c8b24b183c435305a7d5a9\_navbar.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\590089d940a3045eb8c8b24b183c435305a7d5a9\_pagination.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\590089d940a3045eb8c8b24b183c435305a7d5a9\_popover.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\590089d940a3045eb8c8b24b183c435305a7d5a9\_print.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\590089d940a3045eb8c8b24b183c435305a7d5a9\_progress.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\590089d940a3045eb8c8b24b183c435305a7d5a9\_reboot.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\590089d940a3045eb8c8b24b183c435305a7d5a9\_root.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\590089d940a3045eb8c8b24b183c435305a7d5a9\_tables.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\590089d940a3045eb8c8b24b183c435305a7d5a9\_tooltip.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\590089d940a3045eb8c8b24b183c435305a7d5a9\_transitions.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\590089d940a3045eb8c8b24b183c435305a7d5a9\_type.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\590089d940a3045eb8c8b24b183c435305a7d5a9\_utilities.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\590089d940a3045eb8c8b24b183c435305a7d5a9\_variables.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\62cfef4a3fbfab02df9a4ee49a4d404e06273937\bootstrap.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\62cfef4a3fbfab02df9a4ee49a4d404e06273937\_alert.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\62cfef4a3fbfab02df9a4ee49a4d404e06273937\_badge.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\62cfef4a3fbfab02df9a4ee49a4d404e06273937\_breadcrumb.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\62cfef4a3fbfab02df9a4ee49a4d404e06273937\_button-group.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\62cfef4a3fbfab02df9a4ee49a4d404e06273937\_buttons.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\62cfef4a3fbfab02df9a4ee49a4d404e06273937\_card.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\62cfef4a3fbfab02df9a4ee49a4d404e06273937\_carousel.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\62cfef4a3fbfab02df9a4ee49a4d404e06273937\_close.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\62cfef4a3fbfab02df9a4ee49a4d404e06273937\_code.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\62cfef4a3fbfab02df9a4ee49a4d404e06273937\_custom-forms.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\62cfef4a3fbfab02df9a4ee49a4d404e06273937\_dropdown.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\62cfef4a3fbfab02df9a4ee49a4d404e06273937\_forms.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\62cfef4a3fbfab02df9a4ee49a4d404e06273937\_functions.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\62cfef4a3fbfab02df9a4ee49a4d404e06273937\_grid.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\62cfef4a3fbfab02df9a4ee49a4d404e06273937\_images.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\62cfef4a3fbfab02df9a4ee49a4d404e06273937\_input-group.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\62cfef4a3fbfab02df9a4ee49a4d404e06273937\_jumbotron.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\62cfef4a3fbfab02df9a4ee49a4d404e06273937\_list-group.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\62cfef4a3fbfab02df9a4ee49a4d404e06273937\_media.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\62cfef4a3fbfab02df9a4ee49a4d404e06273937\_mixins.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\62cfef4a3fbfab02df9a4ee49a4d404e06273937\_modal.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\62cfef4a3fbfab02df9a4ee49a4d404e06273937\_nav.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\62cfef4a3fbfab02df9a4ee49a4d404e06273937\_navbar.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\62cfef4a3fbfab02df9a4ee49a4d404e06273937\_pagination.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\62cfef4a3fbfab02df9a4ee49a4d404e06273937\_popover.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\62cfef4a3fbfab02df9a4ee49a4d404e06273937\_print.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\62cfef4a3fbfab02df9a4ee49a4d404e06273937\_progress.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\62cfef4a3fbfab02df9a4ee49a4d404e06273937\_reboot.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\62cfef4a3fbfab02df9a4ee49a4d404e06273937\_root.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\62cfef4a3fbfab02df9a4ee49a4d404e06273937\_tables.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\62cfef4a3fbfab02df9a4ee49a4d404e06273937\_tooltip.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\62cfef4a3fbfab02df9a4ee49a4d404e06273937\_transitions.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\62cfef4a3fbfab02df9a4ee49a4d404e06273937\_type.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\62cfef4a3fbfab02df9a4ee49a4d404e06273937\_utilities.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\62cfef4a3fbfab02df9a4ee49a4d404e06273937\_variables.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\6da42945727bdadaec570db1596987e0a46bfa4d\socials.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\6da42945727bdadaec570db1596987e0a46bfa4d\style.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\6da42945727bdadaec570db1596987e0a46bfa4d\variables.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\6da42945727bdadaec570db1596987e0a46bfa4d\_gauge.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\6da42945727bdadaec570db1596987e0a46bfa4d\_switches.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\6da42945727bdadaec570db1596987e0a46bfa4d\_widgets.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\6e69d195df721b3a89b57cbd4813c065acff1449\_align.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\6e69d195df721b3a89b57cbd4813c065acff1449\_background.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\6e69d195df721b3a89b57cbd4813c065acff1449\_borders.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\6e69d195df721b3a89b57cbd4813c065acff1449\_clearfix.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\6e69d195df721b3a89b57cbd4813c065acff1449\_display.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\6e69d195df721b3a89b57cbd4813c065acff1449\_embed.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\6e69d195df721b3a89b57cbd4813c065acff1449\_flex.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\6e69d195df721b3a89b57cbd4813c065acff1449\_float.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\6e69d195df721b3a89b57cbd4813c065acff1449\_position.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\6e69d195df721b3a89b57cbd4813c065acff1449\_screenreaders.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\6e69d195df721b3a89b57cbd4813c065acff1449\_sizing.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\6e69d195df721b3a89b57cbd4813c065acff1449\_spacing.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\6e69d195df721b3a89b57cbd4813c065acff1449\_text.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\6e69d195df721b3a89b57cbd4813c065acff1449\_visibility.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\c64c3075ab570bf2e2c270d1fb05ff7e3db68931\_alert.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\c64c3075ab570bf2e2c270d1fb05ff7e3db68931\_background-variant.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\c64c3075ab570bf2e2c270d1fb05ff7e3db68931\_badge.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\c64c3075ab570bf2e2c270d1fb05ff7e3db68931\_border-radius.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\c64c3075ab570bf2e2c270d1fb05ff7e3db68931\_box-shadow.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\c64c3075ab570bf2e2c270d1fb05ff7e3db68931\_breakpoints.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\c64c3075ab570bf2e2c270d1fb05ff7e3db68931\_buttons.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\c64c3075ab570bf2e2c270d1fb05ff7e3db68931\_caret.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\c64c3075ab570bf2e2c270d1fb05ff7e3db68931\_clearfix.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\c64c3075ab570bf2e2c270d1fb05ff7e3db68931\_float.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\c64c3075ab570bf2e2c270d1fb05ff7e3db68931\_forms.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\c64c3075ab570bf2e2c270d1fb05ff7e3db68931\_gradients.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\c64c3075ab570bf2e2c270d1fb05ff7e3db68931\_grid-framework.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\c64c3075ab570bf2e2c270d1fb05ff7e3db68931\_grid.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\c64c3075ab570bf2e2c270d1fb05ff7e3db68931\_hover.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\c64c3075ab570bf2e2c270d1fb05ff7e3db68931\_image.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\c64c3075ab570bf2e2c270d1fb05ff7e3db68931\_list-group.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\c64c3075ab570bf2e2c270d1fb05ff7e3db68931\_lists.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\c64c3075ab570bf2e2c270d1fb05ff7e3db68931\_nav-divider.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\c64c3075ab570bf2e2c270d1fb05ff7e3db68931\_pagination.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\c64c3075ab570bf2e2c270d1fb05ff7e3db68931\_reset-text.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\c64c3075ab570bf2e2c270d1fb05ff7e3db68931\_resize.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\c64c3075ab570bf2e2c270d1fb05ff7e3db68931\_screen-reader.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\c64c3075ab570bf2e2c270d1fb05ff7e3db68931\_size.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\c64c3075ab570bf2e2c270d1fb05ff7e3db68931\_table-row.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\c64c3075ab570bf2e2c270d1fb05ff7e3db68931\_text-emphasis.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\c64c3075ab570bf2e2c270d1fb05ff7e3db68931\_text-hide.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\c64c3075ab570bf2e2c270d1fb05ff7e3db68931\_text-truncate.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\c64c3075ab570bf2e2c270d1fb05ff7e3db68931\_transition.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\c64c3075ab570bf2e2c270d1fb05ff7e3db68931\_visibility.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\d192277f41c6848ff7411af310ee7b2a42ab6d76\_align.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\d192277f41c6848ff7411af310ee7b2a42ab6d76\_background.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\d192277f41c6848ff7411af310ee7b2a42ab6d76\_borders.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\d192277f41c6848ff7411af310ee7b2a42ab6d76\_clearfix.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\d192277f41c6848ff7411af310ee7b2a42ab6d76\_display.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\d192277f41c6848ff7411af310ee7b2a42ab6d76\_embed.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\d192277f41c6848ff7411af310ee7b2a42ab6d76\_flex.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\d192277f41c6848ff7411af310ee7b2a42ab6d76\_float.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\d192277f41c6848ff7411af310ee7b2a42ab6d76\_position.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\d192277f41c6848ff7411af310ee7b2a42ab6d76\_screenreaders.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\d192277f41c6848ff7411af310ee7b2a42ab6d76\_sizing.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\d192277f41c6848ff7411af310ee7b2a42ab6d76\_spacing.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\d192277f41c6848ff7411af310ee7b2a42ab6d76\_text.scssc" />
+    <Content Include="librarian\assets\scss\.sass-cache\d192277f41c6848ff7411af310ee7b2a42ab6d76\_visibility.scssc" />
+    <Content Include="librarian\assets\scss\bootstrap\bootstrap-grid.css.map" />
+    <Content Include="librarian\assets\scss\bootstrap\bootstrap-grid.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\bootstrap-reboot.css.map" />
+    <Content Include="librarian\assets\scss\bootstrap\bootstrap-reboot.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\bootstrap.css.map" />
+    <Content Include="librarian\assets\scss\bootstrap\bootstrap.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\mixins\_alert.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\mixins\_background-variant.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\mixins\_badge.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\mixins\_border-radius.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\mixins\_box-shadow.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\mixins\_breakpoints.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\mixins\_buttons.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\mixins\_caret.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\mixins\_clearfix.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\mixins\_float.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\mixins\_forms.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\mixins\_gradients.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\mixins\_grid-framework.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\mixins\_grid.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\mixins\_hover.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\mixins\_image.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\mixins\_list-group.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\mixins\_lists.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\mixins\_nav-divider.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\mixins\_navbar-align.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\mixins\_pagination.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\mixins\_reset-text.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\mixins\_resize.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\mixins\_screen-reader.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\mixins\_size.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\mixins\_table-row.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\mixins\_text-emphasis.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\mixins\_text-hide.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\mixins\_text-truncate.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\mixins\_transition.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\mixins\_visibility.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\utilities\_align.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\utilities\_background.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\utilities\_borders.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\utilities\_clearfix.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\utilities\_display.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\utilities\_embed.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\utilities\_flex.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\utilities\_float.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\utilities\_position.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\utilities\_screenreaders.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\utilities\_sizing.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\utilities\_spacing.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\utilities\_text.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\utilities\_visibility.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\_alert.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\_badge.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\_breadcrumb.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\_button-group.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\_buttons.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\_card.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\_carousel.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\_close.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\_code.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\_custom-forms.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\_dropdown.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\_forms.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\_functions.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\_grid.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\_images.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\_input-group.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\_jumbotron.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\_list-group.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\_media.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\_mixins.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\_modal.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\_nav.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\_navbar.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\_pagination.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\_popover.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\_print.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\_progress.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\_reboot.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\_root.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\_tables.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\_tooltip.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\_transitions.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\_type.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\_utilities.scss" />
+    <Content Include="librarian\assets\scss\bootstrap\_variables.scss" />
+    <Content Include="librarian\assets\scss\socials.css.map" />
+    <Content Include="librarian\assets\scss\socials.scss" />
+    <Content Include="librarian\assets\scss\style.css.map" />
+    <Content Include="librarian\assets\scss\style.scss" />
+    <Content Include="librarian\assets\scss\variables.scss" />
+    <Content Include="librarian\assets\scss\_gauge.scss" />
+    <Content Include="librarian\assets\scss\_switches.scss" />
+    <Content Include="librarian\assets\scss\_widgets.scss" />
+    <Content Include="librarian\librarian_menu.Master" />
+    <Content Include="App_Code\DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Content>
+    <Content Include="App_Code\book.xsc">
+      <DependentUpon>book.xsd</DependentUpon>
+    </Content>
+    <Content Include=".editorconfig" />
+    <None Include="App_Code\book.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>book.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="App_Code\book.xss">
+      <DependentUpon>book.xsd</DependentUpon>
+    </Content>
+    <None Include="App_Code\DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="App_Code\DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Content>
+    <Content Include="App_Code\stud_teacher.xsc">
+      <DependentUpon>stud_teacher.xsd</DependentUpon>
+    </Content>
+    <None Include="App_Code\stud_teacher.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>stud_teacher.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="App_Code\stud_teacher.xss">
+      <DependentUpon>stud_teacher.xsd</DependentUpon>
+    </Content>
+    <None Include="packages.config" />
+    <Content Include="student\student_menu.Master" />
+    <Content Include="teacher\teacher_menu.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="librarian\Report\book_data.rdlc" />
+    <EmbeddedResource Include="librarian\Report\lost_book.rdlc" />
+    <EmbeddedResource Include="librarian\Report\Report_teacher_issue_return.rdlc" />
+    <EmbeddedResource Include="librarian\Report\stud_data.rdlc" />
+    <EmbeddedResource Include="librarian\Report\stud_issued.rdlc" />
+    <EmbeddedResource Include="librarian\Report\teacher_data.rdlc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="SqlServerTypes\x64\" />
+    <Folder Include="SqlServerTypes\x86\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Win32Resource>
+    </Win32Resource>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1827</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44341/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

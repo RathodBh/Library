@@ -1,0 +1,228 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="student_menu.master.cs" Inherits="Library_Management_System.student.student_menu" %>
+
+<!doctype html>
+
+<html class="no-js" lang=""> 
+<head runat="server">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Student Panel</title>
+    <meta name="description" >
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="apple-icon.png" />
+    <link rel="shortcut icon" href="../webforms/img/favicon.ico" />
+  
+     <link rel="stylesheet" href="../css/preloader.css" />
+     <link rel="stylesheet" href="../css/table.css" />
+     
+
+    <link rel="stylesheet" href="../librarian/assets/css/normalize.css" />
+    <link rel="stylesheet" href="../librarian/assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../librarian/assets/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../librarian/assets/css/themify-icons.css" />
+      <link rel="stylesheet" href="../librarian/assets/css/themify-icons.css" /> <!-- other icon like 'bell' -->
+
+    <link rel="stylesheet" href="../librarian/assets/scss/style.css" />
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
+
+      <!-- Responsive  -->
+    <link rel="stylesheet" href="../css/tab.css" />
+    <link rel="stylesheet" href="../css/phone.css" />
+
+</head>
+<body style="user-select:none;" onload="load_gif()">
+
+    <div id="loading"></div>
+<!-- Left Panel -->
+
+<aside id="left-panel" class="left-panel">
+    <nav class="navbar navbar-expand-sm navbar-default">
+
+        <div class="navbar-header">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu"
+                    aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand" href="./"><h4>Student Panel</h4></a>
+            <a class="navbar-brand hidden" href="./"><h4>S</h4></a>
+        </div>
+
+        <div id="main-menu" class="main-menu collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              
+               
+                <li class="menu-item-has-children dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                       aria-expanded="false"> <i class="menu-icon fa fa-book"></i>Books</a>
+                    <ul class="sub-menu children dropdown-menu">
+                        <li><i class="fa fa-eye"></i><a href="stud_disp_book.aspx">Show Books</a></li>
+                    </ul>
+                </li>
+                 <li class="menu-item-has-children dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                       aria-expanded="false"> <i class="menu-icon fa fa-shopping-bag"></i>Book Issue</a>
+                    <ul class="sub-menu children dropdown-menu">
+                         <li><i class="fa fa-shopping-bag"></i><a href="stud_issue_entry.aspx">Issue Entry</a></li>
+                         <li><i class="fa fa-shopping-bag"></i><a href="stud_issued_books.aspx">Issued Books</a></li>
+                       
+                    </ul>
+                </li>
+                   <li class="menu-item-has-children dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                       aria-expanded="false"> <i class="menu-icon fa fa-check-square-o"></i>Returned Books</a>
+                    <ul class="sub-menu children dropdown-menu">
+                        <li><i class="fa fa-check-square-o"></i><a href="stud_returned_books.aspx">Returned Books</a></li>
+                        
+                    </ul>
+                </li>
+                
+                <li class="menu-item-has-children dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                       aria-expanded="false"> <i class="menu-icon fa fa-exclamation-triangle"></i>Lost Book</a>
+                    <ul class="sub-menu children dropdown-menu">
+                        <li><i class="fa fa-exclamation"></i><a href="lost_book.aspx">Lost Entry</a></li>
+                         <li><i class="fa fa-exclamation-circle"></i><a href="show_lost_book.aspx">Show lost books</a></li>
+                        
+                    </ul>
+                </li>
+
+                <li class="menu-item-has-children dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                       aria-expanded="false"> <i class="menu-icon fa fa-comments"></i>Message</a>
+                    <ul class="sub-menu children dropdown-menu">
+                        <li><i class="fa fa-comment"></i><a href="stud_send_msg.aspx">Message</a></li>
+                        
+                    </ul>
+                </li>
+
+                
+                <h3 class="menu-title"></h3>
+                <li class="menu-item-has-children dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                       aria-expanded="false"> <i class="menu-icon fa fa-plus"></i>More</a>
+                    <ul class="sub-menu children dropdown-menu">
+                        <li><i class="fa fa-address-book"></i><a href="../webforms/about_us.aspx">About Us</a></li>
+                        <li><i class="fa fa-phone"></i><a href="../webforms/contact_us.aspx">Contact Us</a></li>
+                         <li><i class="fa fa-plus-square"></i><a href="../webforms/follow.aspx">Follow</a></li>
+                    </ul>
+                </li>
+
+                <h3 class="menu-title"></h3>
+                <li class="menu-item-has-children dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                       aria-expanded="false"> <i class="menu-icon fa fa-user"></i>My Profile</a>
+                    <ul class="sub-menu children dropdown-menu">
+                        <li><i class="fa fa-user"></i><a href="my_profile.aspx">Profile</a></li>
+                        <li><i class="fa fa-sign-out"></i><a href="../webforms/logout.aspx">Logout</a></li>
+                    </ul>
+                </li>
+              
+                <h3 class="menu-title"></h3>
+               
+                
+             <a class="navbar-brand" ><center><p></p><p id="tm">TIME</p></center> </a>
+                    <a class="navbar-brand hidden" ><i style="color:white;" class="fa fa-clock-o"></i></a>
+                    
+            
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </nav>
+</aside>
+<!-- /#left-panel -->
+
+<!-- Left Panel -->
+
+<!-- Right Panel -->
+
+<div id="right-panel" class="right-panel"  style="background:white url('../webforms/img/logo_blurred.png') no-repeat center; height:100vh;">
+
+    <!-- Header-->
+     <header id="header" class="header">
+        
+        <div class="header-menu">
+           <div class="lms" >
+            <p class="lms_t">Library Management System</p>
+        </div>
+            <div class="col-sm-7">
+                <a id="menuToggle" class="menutoggle pull-left" ><i class="fa fa fa-tasks"></i></a>
+
+                <div class="header-left">
+                   
+                    <div class="dropdown for-message" >
+                        <button class="btn btn-secondary dropdown-toggle" type="button"
+                                id="message"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="ti-bell"></i>
+                            <span class="count bg-primary">
+                                <asp:Label ID="notify1" runat="server" Text=""></asp:Label></span>
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="message" style="border: 1px solid black;">
+                            <p class="red">You have <asp:Label ID="notify2" runat="server" Text=""></asp:Label> Messages</p>
+                           
+                            <asp:Repeater ID="r1" runat="server">
+
+                                <ItemTemplate>
+                                    
+                                    <a class="dropdown-item media " href="communication.aspx?username=<%#Eval("sender") %>" style="border:1px solid grey;">
+                                         <span class="message media-body">
+                                            <span class="name float-left"><%#Eval("sender") %></span>
+                                            
+                                                <p><%#getShortMsg(Eval("msg")) %></p>
+                                        </span>
+                                    </a>
+                                  </ItemTemplate>
+                            </asp:Repeater>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+           
+        </div>
+
+    </header>
+    <!-- /header -->
+    <!-- /header -->
+    <!-- Header-->
+
+   
+    <div class="content mt-3">
+        <asp:ContentPlaceHolder ID="c1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+</div>
+
+<!-- Right Panel -->
+
+<script src="../librarian/assets/js/vendor/jquery-2.1.4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+<script src="../librarian/assets/js/plugins.js"></script>
+<script src="../librarian/assets/js/main.js"></script>
+
+<script src="../librarian/assets/js/dashboard.js"></script>
+<script src="../librarian/assets/js/widgets.js"></script>
+
+    <!--for preloader-->
+    <script type="text/javascript">
+        var preloader = document.getElementById('loading');
+
+        function load_gif() {
+            preloader.style.display = "none";
+        }
+    </script>
+
+     <!--for TIME-->
+      <script>
+          var l1 = document.getElementById("tm");
+          setInterval(() => {
+              l1.innerText = new Date().toLocaleTimeString();
+          }, 1000);
+
+      </script>
+
+</body>
+</html>

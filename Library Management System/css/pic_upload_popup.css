@@ -1,0 +1,119 @@
+﻿/*
+    css for popup upload imagesfor student and teacher
+    form--> stud_login.aspx & teacher_login.aspx
+*/
+
+.center {
+    position: absolute;
+    top: 28%;
+    right: 40%;
+    transition: translate(-50%,-50%);
+    
+}
+
+.content {
+    position: absolute;
+    top: 40%;
+    right: 40%;
+    transition: translate(-50%,-50%);
+    
+}
+
+.click-me {
+    width: 160px;
+    height: 50px;
+    background: #27ae60;
+    border: 1px solid #26a65b;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    line-height: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: : .5s;
+}
+
+.click-me:hover {
+        background: #006600;
+}
+
+#click, #click2 {
+    display: none;
+}
+
+.content {
+    opacity: 0;
+    visibility: hidden;
+    background: #219150;
+    width: 300px;
+    height: 250px;
+    background: white;
+    border-radius: 5px;
+    transition: .5s ease-out;
+    box-shadow: 0 2px 12px 0 rgba(0,0,0,.4);
+}
+
+#click:checked ~ .content {
+    opacity: 1;
+    visibility: visible;
+    top: -500%;
+    right: -125%;
+    
+}
+
+.header {
+    height: 68px;
+    background: #27ae60;
+    overflow: hidden;
+    border-radius: 3px 3px 0 0;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.2);
+}
+
+    .header h2 {
+        color: white;
+        padding-left: 32px;
+        font-weight: normal;
+    }
+
+.line {
+    position: absolute;
+    bottom: 60px;
+    width: 100%;
+    height: 2px;
+    background: silver;
+}
+
+.fl {
+    position: absolute;
+    right: 25px;
+    border: 3px solid #27ae60;
+    border-radius: 10px;
+    color: #27ae60;
+    padding: 8px 10px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+    .fl:hover {
+        background: #27ae60;
+        color: White;
+        transition: 1s;
+    }
+
+.close-btn {
+    position: absolute;
+    bottom: 12px;
+    right: 25px;
+    border: 1px solid #27ae60;
+    border-radius: 5px;
+    color: #27ae60;
+    padding: 8px 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+    .close-btn:hover {
+        background: #27ae60;
+        color: white;
+        transition: 1s;
+    }

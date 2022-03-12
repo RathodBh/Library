@@ -1,0 +1,48 @@
+﻿.lms {
+    margin-left: 100px;
+    display: inline;
+    position: absolute;
+}
+
+#tm{
+    display:inline-block;
+    text-align:center;
+    width: 20vw;
+    padding: 2px 10px;
+    color: navajowhite;
+    border: 2px solid white;
+    border-radius:7px;
+}
+.lms_t {
+    font-size: 30px;
+}
+@media screen and (max-width: 578px) {
+    #tm {
+        width: 50vw;
+    }
+@media screen and (max-width: 400px) {
+    .card-body {
+        overflow-x: auto;
+        font-size: 10px;
+    }
+    #tm {
+        width: 40vw;
+        padding: 2px 25px;
+    }
+    #ReportViewer1{
+        width: 200px;
+        overflow: auto;
+    }
+    /* 
+        librarian.MASTER
+    */
+    .lms {
+        margin-left: 51px;
+    }
+    .lms h3 {
+       font-size: 20px;
+    }
+    .lms_t {
+            font-size: 20px;
+    }
+}

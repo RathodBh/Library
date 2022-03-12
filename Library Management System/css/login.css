@@ -1,0 +1,155 @@
+﻿/*
+    css for student login form and teacher login form
+*/
+
+/* Preloader */
+#loading {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #fff url('../gif/clock.gif') no-repeat center;
+    z-index: 99999;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to bottom,#0f0c29, #302b63,#24243e);
+    display: flex;
+    user-select: none;
+}
+
+.main {
+    width: 460px;
+    height: 620px;
+    background: orange;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 5px 20px 50px #000;
+}
+
+#chk {
+    display: none;
+}
+
+.login {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: -25px;
+    left: 0px;
+    margin-right: 0px;
+}
+
+#l1 {
+    color: #fff;
+    font-size: 2.3em;
+    justify-content: center;
+    display: flex;
+    margin: 60px;
+    font-weight: bold;
+    transition: 1s ease-in-out;
+}
+
+.l1 {
+    color: #fff;
+    font-size: 2.3em;
+    justify-content: center;
+    display: flex;
+    margin: 40px;
+    padding-top: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+}
+
+#Label1 {
+    color: grey;
+    font-size: 20px;
+}
+
+#Label2, #Label3, #Label4 {
+    color: grey;
+    font-weight: bold;
+    border-color: Black;
+    font-size: 15px;
+}
+
+.input {
+    width: 70%;
+    height: 12px;
+    background: #fff;
+    justify-content: center;
+    display: flex;
+    margin: 13px auto;
+    padding: 9px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+}
+
+.button {
+    width: 60%;
+    height: 40px;
+    margin: 10px auto;
+    justify-content: center;
+    display: block;
+    color: #fff;
+    background: #573b8a;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 3px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    transition: .4s ease-in;
+    cursor: pointer;
+}
+
+    .button:hover {
+        background: rgb(0, 174, 255);
+    }
+
+.signup {
+    height: 650px;
+    background: #eee;
+    border-radius: 60% / 10%;
+    transform: translateY(-170px);
+    transition: .8s ease-in;
+}
+
+    .signup .l1 {
+        color: blue;
+        transform: scale(.6);
+    }
+
+#chk:checked ~ .signup .l1 {
+    transform: scale(1);
+}
+
+#chk:checked ~ .signup {
+    transform: translateY(-640px);
+}
+
+#chk:checked ~ .login #l1 {
+    transform: scale(.6);
+}
+
+
+
+#DropDownList1, #DropDownList2, #DropDownList3 {
+    padding: 4.5px;
+    border-radius: 10px;
+    transition: 1s ease-in-out;
+}
+
+.sl1 {
+    height: 53px;
+    width: 53px;
+    border-radius: 50%;
+    cursor: default;
+}

@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+html {
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    user-select: none;
+}
+
+#logo {
+    width: 280px;
+    height: 280px;
+    display: inline;
+}
+
+#main_title {
+    font-size: 7.5rem;
+    display: block;
+    margin: -10px;
+}
+
+#lms {
+    font-size: 4rem;
+    margin-top: -10px;
+    color: #FC6D6D;
+}
+
+.main_about {
+    height: 100vh;
+    background: url('../webforms/img/book2.png');
+    color: blue;
+    display: grid;
+    place-items: center;
+    background-size: cover;
+}
+
+    .main_about h3 {
+        text-align: center;
+        font-size: 5.5rem;
+        margin-top: -20px;
+    }
+
+    .main_about .sub_about {
+        width: 70vw;
+        height: 80vh;
+        margin-top: -100px;
+        background-color: rgba(0, 0, 0, 0.4);
+        color: #fff;
+        border-radius: 20px;
+        padding: 20px;
+        text-align: justify;
+    }
+
+.about_p {
+    font-size: 2rem;
+    font-family: 'Comfortaa', cursive;
+}
+
+.wrapper {
+    display: inline-flex;
+}
+
+    .wrapper .text {
+        height: 1.8rem;
+        line-height: 1.8rem;
+        overflow: hidden;
+    }
+
+.text li {
+    list-style: none;
+    font-size: 1.8rem;
+    color: goldenrod;
+    position: relative;
+    top: 0;
+    padding: 2px 0px;
+    animation: slide 24s steps(4) infinite;
+}
+
+@keyframes slide {
+    100% {
+        top: -9rem;
+    }
+}
+
+.text li span {
+    position: relative;
+}
+
+    .text li span::after {
+        content: "";
+        left: 0;
+        background-color: #474e5d;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        border-left: 2.5px solid goldenrod;
+        animation: typing 6s steps(30) infinite;
+    }
+
+@keyframes typing {
+    0% {
+        left: 0%;
+    }
+
+    50% {
+        left: 100%;
+    }
+
+    100% {
+        left: 0%;
+    }
+}
+
+.row {
+    height: 45vh;
+    display: grid;
+    place-items: center;
+    text-align:center;
+}
+
+.column {
+    height: auto;
+    float: left;
+    width: 35.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  
+    
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+    
+}
+
+.about-section {
+    padding: 50px;
+    height: 100vh;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+    display: grid;
+    place-items: center;
+}
+
+.container {
+    padding: 0 16px;
+    display:  grid;
+    text-align: center;
+    justify-content:center;
+}
+
+.container::after, .row::after {
+        content: "";
+        clear: both;
+        display: table;
+ }
+
+h2 {
+    font-size: 32px;
+    color:blueviolet;
+}
+
+.my_pic {
+    height: auto;
+    width: 100%;
+}
+
+.title {
+    color: darkred;
+    font-size:20px;
+}
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+    .button:hover {
+        background-color: #555;
+    }
+
+@media screen and (max-width:768px) {
+    .about_p {
+        font-size: 2rem;
+    }
+
+    .row {
+        width: 100%;
+    }
+
+    .column {
+        width: 60%;
+    }
+
+    .my_pic {
+        height: 57vh;
+    }
+}
+
+@media screen and (max-width: 400px) {
+ 
+
+    #main_title {
+        font-size: 5rem;
+    }
+
+    #lms {
+        font-size: 2.6rem;
+    }
+
+    #logo {
+        width: 200px;
+        height: 200px;
+        display: inline;
+    }
+
+    .main_about .sub_about {
+        height: 67vh;
+    }
+
+    .about_p {
+        font-size: 1rem;
+        overflow: auto;
+    }
+
+    .text li {
+        font-size: 1.06rem;
+    }
+
+        .text li span {
+            font-size: 1.06rem;
+        }
+
+    .my_pic {
+        height: 64vh;
+    }
+}

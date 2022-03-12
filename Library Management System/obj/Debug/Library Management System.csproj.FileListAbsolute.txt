@@ -1,0 +1,261 @@
+C:\Users\bcaproject11\Documents\Visual Studio 2019\Library Management System\bin\Library Management System.dll.config
+C:\Users\bcaproject11\Documents\Visual Studio 2019\Library Management System\bin\Library Management System.dll
+C:\Users\bcaproject11\Documents\Visual Studio 2019\Library Management System\bin\Library Management System.pdb
+C:\Users\bcaproject11\Documents\Visual Studio 2019\Library Management System\bin\roslyn\csc.exe
+C:\Users\bcaproject11\Documents\Visual Studio 2019\Library Management System\bin\roslyn\csc.exe.config
+C:\Users\bcaproject11\Documents\Visual Studio 2019\Library Management System\bin\roslyn\csc.rsp
+C:\Users\bcaproject11\Documents\Visual Studio 2019\Library Management System\bin\roslyn\csi.exe
+C:\Users\bcaproject11\Documents\Visual Studio 2019\Library Management System\bin\roslyn\csi.exe.config
+C:\Users\bcaproject11\Documents\Visual Studio 2019\Library Management System\bin\roslyn\csi.rsp
+C:\Users\bcaproject11\Documents\Visual Studio 2019\Library Management System\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\bcaproject11\Documents\Visual Studio 2019\Library Management System\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\bcaproject11\Documents\Visual Studio 2019\Library Management System\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\bcaproject11\Documents\Visual Studio 2019\Library Management System\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\bcaproject11\Documents\Visual Studio 2019\Library Management System\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\bcaproject11\Documents\Visual Studio 2019\Library Management System\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\bcaproject11\Documents\Visual Studio 2019\Library Management System\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\bcaproject11\Documents\Visual Studio 2019\Library Management System\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\bcaproject11\Documents\Visual Studio 2019\Library Management System\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\bcaproject11\Documents\Visual Studio 2019\Library Management System\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\bcaproject11\Documents\Visual Studio 2019\Library Management System\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\bcaproject11\Documents\Visual Studio 2019\Library Management System\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\bcaproject11\Documents\Visual Studio 2019\Library Management System\bin\roslyn\System.AppContext.dll
+C:\Users\bcaproject11\Documents\Visual Studio 2019\Library Management System\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\bcaproject11\Documents\Visual Studio 2019\Library Management System\bin\roslyn\System.Console.dll
+C:\Users\bcaproject11\Documents\Visual Studio 2019\Library Management System\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\bcaproject11\Documents\Visual Studio 2019\Library Management System\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\bcaproject11\Documents\Visual Studio 2019\Library Management System\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\bcaproject11\Documents\Visual Studio 2019\Library Management System\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\bcaproject11\Documents\Visual Studio 2019\Library Management System\bin\roslyn\System.IO.Compression.dll
+C:\Users\bcaproject11\Documents\Visual Studio 2019\Library Management System\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\bcaproject11\Documents\Visual Studio 2019\Library Management System\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\bcaproject11\Documents\Visual Studio 2019\Library Management System\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\bcaproject11\Documents\Visual Studio 2019\Library Management System\bin\roslyn\System.Net.Http.dll
+C:\Users\bcaproject11\Documents\Visual Studio 2019\Library Management System\bin\roslyn\System.Net.Sockets.dll
+C:\Users\bcaproject11\Documents\Visual Studio 2019\Library Management System\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\bcaproject11\Documents\Visual Studio 2019\Library Management System\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\bcaproject11\Documents\Visual Studio 2019\Library Management System\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\bcaproject11\Documents\Visual Studio 2019\Library Management System\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\bcaproject11\Documents\Visual Studio 2019\Library Management System\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\bcaproject11\Documents\Visual Studio 2019\Library Management System\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\bcaproject11\Documents\Visual Studio 2019\Library Management System\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\bcaproject11\Documents\Visual Studio 2019\Library Management System\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\bcaproject11\Documents\Visual Studio 2019\Library Management System\bin\roslyn\System.ValueTuple.dll
+C:\Users\bcaproject11\Documents\Visual Studio 2019\Library Management System\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\bcaproject11\Documents\Visual Studio 2019\Library Management System\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\bcaproject11\Documents\Visual Studio 2019\Library Management System\bin\roslyn\System.Xml.XPath.dll
+C:\Users\bcaproject11\Documents\Visual Studio 2019\Library Management System\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\bcaproject11\Documents\Visual Studio 2019\Library Management System\bin\roslyn\vbc.exe
+C:\Users\bcaproject11\Documents\Visual Studio 2019\Library Management System\bin\roslyn\vbc.exe.config
+C:\Users\bcaproject11\Documents\Visual Studio 2019\Library Management System\bin\roslyn\vbc.rsp
+C:\Users\bcaproject11\Documents\Visual Studio 2019\Library Management System\bin\roslyn\VBCSCompiler.exe
+C:\Users\bcaproject11\Documents\Visual Studio 2019\Library Management System\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\bcaproject11\Documents\Visual Studio 2019\Library Management System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\bcaproject11\Documents\Visual Studio 2019\Library Management System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\bcaproject11\Documents\Visual Studio 2019\Library Management System\obj\Debug\Library Management System.csprojAssemblyReference.cache
+C:\Users\bcaproject11\Documents\Visual Studio 2019\Library Management System\obj\Debug\Library Management System.csproj.CoreCompileInputs.cache
+C:\Users\bcaproject11\Documents\Visual Studio 2019\Library Management System\obj\Debug\Library Management System.csproj.CopyComplete
+C:\Users\bcaproject11\Documents\Visual Studio 2019\Library Management System\obj\Debug\Library Management System.dll
+C:\Users\bcaproject11\Documents\Visual Studio 2019\Library Management System\obj\Debug\Library Management System.pdb
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\packages\Microsoft.SqlServer.Types.11.0.1\nativeBinaries\x64\msvcr100.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\packages\Microsoft.SqlServer.Types.11.0.1\nativeBinaries\x64\SqlServerSpatial110.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\packages\Microsoft.SqlServer.Types.11.0.1\nativeBinaries\x86\msvcr100.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\packages\Microsoft.SqlServer.Types.11.0.1\nativeBinaries\x86\SqlServerSpatial110.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\Library Management System.dll.config
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\Library Management System.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\Library Management System.pdb
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\roslyn\csc.exe
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\roslyn\csc.exe.config
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\roslyn\csc.rsp
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\roslyn\csi.exe
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\roslyn\csi.exe.config
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\roslyn\csi.rsp
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\roslyn\System.AppContext.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\roslyn\System.Console.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\roslyn\System.IO.Compression.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\roslyn\System.Net.Http.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\roslyn\System.Net.Sockets.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\roslyn\System.ValueTuple.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\roslyn\System.Xml.XPath.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\roslyn\vbc.exe
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\roslyn\vbc.exe.config
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\roslyn\vbc.rsp
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\roslyn\VBCSCompiler.exe
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\Microsoft.ReportViewer.DataVisualization.DLL
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\Microsoft.ReportViewer.Design.DLL
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\Microsoft.ReportViewer.WebDesign.DLL
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\Microsoft.ReportViewer.WinForms.DLL
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\Microsoft.SqlServer.Types.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\EnvDTE.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\EnvDTE80.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\stdole.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\Microsoft.VisualStudio.ProjectAggregator.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\Microsoft.VisualStudio.VSHelp.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\Microsoft.VisualStudio.TemplateWizardInterface.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\Microsoft.VisualStudio.Shell.Interop.10.0.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\VSLangProj.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\Microsoft.VisualStudio.Data.Services.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\Microsoft.VisualStudio.Data.Core.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\VSLangProj80.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\Microsoft.VisualStudio.Debugger.InteropA.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\Microsoft.VisualStudio.ComponentModelHost.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\Microsoft.VisualStudio.ManagedInterfaces.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\Microsoft.VisualStudio.Shell.Interop.9.0.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\Microsoft.MSXML.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\Microsoft.Windows.Design.Interaction.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\Microsoft.Windows.Design.Extensibility.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\VSLangProj2.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\Microsoft.VisualStudio.TemplateWizardInterface.xml
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\Microsoft.Windows.Design.Interaction.xml
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\bin\Microsoft.Windows.Design.Extensibility.xml
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\obj\Debug\Library Management System.csprojAssemblyReference.cache
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\obj\Debug\RdlCompile.cache
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\obj\Debug\RdlCompile.compiled
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\obj\Debug\Library Management System.csproj.CoreCompileInputs.cache
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\obj\Debug\Library Management System.csproj.CopyComplete
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\obj\Debug\Library Management System.dll
+C:\Users\BH\Documents\Visual Studio 2019\Library Management System\obj\Debug\Library Management System.pdb
+D:\Library Management System\bin\packages\Microsoft.SqlServer.Types.11.0.1\nativeBinaries\x64\msvcr100.dll
+D:\Library Management System\bin\packages\Microsoft.SqlServer.Types.11.0.1\nativeBinaries\x64\SqlServerSpatial110.dll
+D:\Library Management System\bin\packages\Microsoft.SqlServer.Types.11.0.1\nativeBinaries\x86\msvcr100.dll
+D:\Library Management System\bin\packages\Microsoft.SqlServer.Types.11.0.1\nativeBinaries\x86\SqlServerSpatial110.dll
+D:\Library Management System\bin\Library Management System.dll.config
+D:\Library Management System\bin\Library Management System.dll
+D:\Library Management System\bin\Library Management System.pdb
+D:\Library Management System\bin\roslyn\csc.exe
+D:\Library Management System\bin\roslyn\csc.exe.config
+D:\Library Management System\bin\roslyn\csc.rsp
+D:\Library Management System\bin\roslyn\csi.exe
+D:\Library Management System\bin\roslyn\csi.exe.config
+D:\Library Management System\bin\roslyn\csi.rsp
+D:\Library Management System\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Library Management System\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Library Management System\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Library Management System\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Library Management System\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Library Management System\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Library Management System\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Library Management System\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Library Management System\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Library Management System\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Library Management System\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Library Management System\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Library Management System\bin\roslyn\System.AppContext.dll
+D:\Library Management System\bin\roslyn\System.Collections.Immutable.dll
+D:\Library Management System\bin\roslyn\System.Console.dll
+D:\Library Management System\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Library Management System\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Library Management System\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Library Management System\bin\roslyn\System.Globalization.Calendars.dll
+D:\Library Management System\bin\roslyn\System.IO.Compression.dll
+D:\Library Management System\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Library Management System\bin\roslyn\System.IO.FileSystem.dll
+D:\Library Management System\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Library Management System\bin\roslyn\System.Net.Http.dll
+D:\Library Management System\bin\roslyn\System.Net.Sockets.dll
+D:\Library Management System\bin\roslyn\System.Reflection.Metadata.dll
+D:\Library Management System\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Library Management System\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Library Management System\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Library Management System\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Library Management System\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Library Management System\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Library Management System\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Library Management System\bin\roslyn\System.ValueTuple.dll
+D:\Library Management System\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Library Management System\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Library Management System\bin\roslyn\System.Xml.XPath.dll
+D:\Library Management System\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Library Management System\bin\roslyn\vbc.exe
+D:\Library Management System\bin\roslyn\vbc.exe.config
+D:\Library Management System\bin\roslyn\vbc.rsp
+D:\Library Management System\bin\roslyn\VBCSCompiler.exe
+D:\Library Management System\bin\roslyn\VBCSCompiler.exe.config
+D:\Library Management System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Library Management System\bin\Microsoft.ReportViewer.Common.dll
+D:\Library Management System\bin\Microsoft.ReportViewer.DataVisualization.DLL
+D:\Library Management System\bin\Microsoft.ReportViewer.Design.DLL
+D:\Library Management System\bin\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+D:\Library Management System\bin\Microsoft.ReportViewer.WebDesign.DLL
+D:\Library Management System\bin\Microsoft.ReportViewer.WebForms.DLL
+D:\Library Management System\bin\Microsoft.ReportViewer.WinForms.DLL
+D:\Library Management System\bin\Microsoft.SqlServer.Types.dll
+D:\Library Management System\bin\EnvDTE.dll
+D:\Library Management System\bin\Microsoft.VisualStudio.Shell.Interop.dll
+D:\Library Management System\bin\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+D:\Library Management System\bin\EnvDTE80.dll
+D:\Library Management System\bin\stdole.dll
+D:\Library Management System\bin\Microsoft.VisualStudio.OLE.Interop.dll
+D:\Library Management System\bin\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\Library Management System\bin\Microsoft.VisualStudio.ProjectAggregator.dll
+D:\Library Management System\bin\Microsoft.VisualStudio.VSHelp.dll
+D:\Library Management System\bin\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+D:\Library Management System\bin\Microsoft.VisualStudio.TemplateWizardInterface.dll
+D:\Library Management System\bin\Microsoft.VisualStudio.Shell.Interop.10.0.dll
+D:\Library Management System\bin\VSLangProj.dll
+D:\Library Management System\bin\Microsoft.VisualStudio.Data.Services.dll
+D:\Library Management System\bin\Microsoft.VisualStudio.Data.Core.dll
+D:\Library Management System\bin\VSLangProj80.dll
+D:\Library Management System\bin\Microsoft.VisualStudio.Debugger.InteropA.dll
+D:\Library Management System\bin\Microsoft.VisualStudio.ComponentModelHost.dll
+D:\Library Management System\bin\Microsoft.VisualStudio.ManagedInterfaces.dll
+D:\Library Management System\bin\Microsoft.VisualStudio.Shell.Interop.9.0.dll
+D:\Library Management System\bin\Microsoft.MSXML.dll
+D:\Library Management System\bin\Microsoft.Windows.Design.Interaction.dll
+D:\Library Management System\bin\Microsoft.Windows.Design.Extensibility.dll
+D:\Library Management System\bin\VSLangProj2.dll
+D:\Library Management System\bin\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
+D:\Library Management System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Library Management System\bin\Microsoft.VisualStudio.TemplateWizardInterface.xml
+D:\Library Management System\bin\Microsoft.Windows.Design.Interaction.xml
+D:\Library Management System\bin\Microsoft.Windows.Design.Extensibility.xml
+D:\Library Management System\obj\Debug\Library Management System.csprojAssemblyReference.cache
+D:\Library Management System\obj\Debug\RdlCompile.cache
+D:\Library Management System\obj\Debug\RdlCompile.compiled
+D:\Library Management System\obj\Debug\Library Management System.csproj.CoreCompileInputs.cache
+D:\Library Management System\obj\Debug\Library Management System.csproj.CopyComplete
+D:\Library Management System\obj\Debug\Library Management System.dll
+D:\Library Management System\obj\Debug\Library Management System.pdb

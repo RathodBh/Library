@@ -1,0 +1,95 @@
+﻿/*
+    Form-->> welcome.aspx 
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    user-select: none;
+}
+
+#loading {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: yellow url('../gif/welcome_preloader.gif') no-repeat center;
+    z-index: 99999;
+}
+
+.a1 {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background: url('https://source.unsplash.com/1600x900/?book,words') no-repeat;
+    top: 0;
+    background-size: cover;
+    filter: blur(4px);
+}
+
+.b1 {
+    margin-top: -500px;
+    text-align: center;
+}
+
+.a1, .b1, .in1 {
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+
+.content h1 {
+    filter: blur(0px);
+    font-family: 'Copperplate Gothic Light',sans-serif;
+    color: #f9f3f4;
+    font-size: 300%;
+    text-shadow: 0 0 300px #000;
+}
+
+    .content h1:hover {
+        filter: blur(0px);
+        font-family: 'Copperplate Gothic Light',sans-serif;
+        color: green;
+        font-size: 305%;
+        text-shadow: 0 0 300px #000;
+    }
+
+.content h3 {
+    filter: blur(0px);
+    font-family: 'Copperplate Gothic Light',sans-serif;
+    color: #f9f3f4;
+    font-size: 100%;
+    text-shadow: 0 0 300px #000;
+}
+
+.i1 {
+    filter: blur(0px);
+}
+
+.btn {
+    filter: blur(0px);
+    border: 4px solid black;
+    border-radius: 17px;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Green */
+.success {
+    border-color: #4CAF50;
+    color: green;
+}
+
+.success:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.success:hover ~ h1 {
+    color: Green;
+    font-size: 160px;
+}

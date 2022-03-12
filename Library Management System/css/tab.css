@@ -1,0 +1,30 @@
+﻿@media screen and (max-width: 768px) {
+    .card-body {
+        overflow-x: auto;
+        font-size: 20px;
+    }
+  
+    .lms h3 {
+            font-size: 23px;
+     }
+    .lms_t {
+        font-size: 23px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .card-body {
+        overflow-x: auto;
+        font-size: 19px;
+    }
+
+    .lms h3 {
+        font-size: 21px;
+    }
+    #tm{
+        width: 90vw;
+        padding: 2px 15px;
+    }
+    .lms_t {
+        font-size: 21px;
+    }
+}
